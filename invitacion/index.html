@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Invitación accesible para la ceremonia de graduación.">
+    <title>Invitación de Graduación</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>¡Estás Invitado!</h1>
+        <h2>Ceremonia de Graduación</h2>
+        <h3 class="promo">Promo 2024</h3>
+    </header>
+    
+    <main class="invitation-container">
+        <section aria-labelledby="descripcion">
+            <h2 id="descripcion">Descripción del Evento</h2>
+            <p id="evento-texto">
+                Después de años de esfuerzo, sacrificios y aprendizajes, cada broma compartida y cada abrazo en los momentos difíciles nos ha traído hasta aquí, al cierre de esta etapa inolvidable.
+                Es por eso que, con el corazón lleno de gratitud y emoción, te invitamos a ser parte de nuestro acto de colación: el broche de oro a esta historia llena de magia.
+                Hoy celebramos no solo un logro académico, sino también la unión y las memorias que llevaremos con nosotros para siempre. ¡Espero verte allí!
+            </p>
+        </section>
+        
+        <section class="main-photo" aria-labelledby="foto-graduacion">
+            <h2 id="foto-graduacion">Foto de la Graduación</h2>
+            <img src="https://i.pinimg.com/736x/71/f2/f2/71f2f26f6700af8086b5b5e1f5bff121.jpg" alt="Foto de graduación representativa">
+        </section>
+        
+        <section class="event-details" aria-labelledby="detalles-evento">
+            <h2 id="detalles-evento">Detalles del Evento</h2>
+            <p><strong>Fecha:</strong> <time datetime="2024-12-16">16 de diciembre de 2024</time></p>
+            <p><strong>Lugar:</strong> Colegio Secundario Coronel Simeón Payba</p>
+            <p><strong>Hora:</strong> 20:30</p>
+        </section>
+        
+        <section class="countdown-container" aria-labelledby="cuenta-regresiva">
+            <h2 id="cuenta-regresiva">¡Nuestra Graduación Está por Llegar!</h2>
+            <div id="countdown" class="countdown-timer" role="timer" aria-live="polite"></div>
+        </section>
+        
+        <section class="gallery" aria-labelledby="galeria">
+            <h2 id="galeria">Galería de Recuerdos</h2>
+            <img src="https://i.pinimg.com/736x/6d/0c/5d/6d0c5d17539ae4a6b156226b1066da1a.jpg" alt="Foto del grupo en un evento especial">
+            <img src="https://i.pinimg.com/736x/ed/78/82/ed7882f02f9a59ca57047c2a116d298e.jpg" alt="Foto del grupo durante una excursión">
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Promo 2024 - Todos los derechos reservados</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>

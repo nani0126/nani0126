@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    background: linear-gradient(to bottom, black, #800020);
+    color: white;
+    text-align: center;
+}
+
+.invitation-container {
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    margin: 10px 0;
+    font-style: italic;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: gold;
+}
+
+h3.promo {
+    font-size: 1.8em;
+    color: #ffd700;
+}
+
+.main-photo img {
+    width: 50%;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+.music-player {
+    margin: 20px 0;
+}
+
+.event-details p {
+    font-size: 1.2em;
+    margin: 10px 0;
+    font-style: italic;
+}
+
+.gallery img {
+    width: 45%;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+form input {
+    padding: 10px;
+    font-size: 1em;
+    margin-right: 10px;
+    font-family: 'Georgia', serif;
+    border: 1px solid gold;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: gold;
+    color: black;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background-color: #d4af37;
+}
+/* Contenedor del cartel de cuenta regresiva */
+.countdown-container {
+    background-color: #800020; /* Fondo rojo oscuro */
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    width: 80%;
+    margin: 30px auto;
+    text-align: center;
+}
+
+/* Título */
+.countdown-container h2 {
+    font-size: 2em;
+    font-style: italic;
+    margin-bottom: 10px;
+    color: gold;
+}
+
+/* Estilo de la cuenta regresiva */
+.countdown-timer {
+    font-size: 3em;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: #ffd700; /* Dorado */
+    background: linear-gradient(135deg, #ffcc00, #ff6600);
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 255, 255, 0.5), 0 0 30px rgba(255, 255, 255, 0.5);
+}
